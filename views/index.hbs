@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Room app</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- use for Search Logo -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="sidebar"> 
+        <!-- Sidebar Content (Contacts, Groups, etc.) -->
+        <div class="header">
+            <img src="/logo.png" alt="Logo">
+            <h1>Chat-Room</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <i class='bx bx-search-alt-2'></i>
+        </div>
+        <div class="contacts">
+            <!-- List of contacts -->
+            {{!-- <div class="contact">
+                <i class='bx bx-user-circle'></i>
+                <p>User Name</p>
+            </div> --}}
+            <div class="contact">
+                <i class='bx bx-user-circle'></i>
+                <p>Arif</p>
+            </div>
+            <div class="contact">
+                <i class='bx bx-user-circle'></i>
+                <p>Rehan</p>
+            </div>
+            <!-- More contacts -->
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="chat-messages">
+            <div class="gradient-div"> 
+                <!-- Chat messages go here -->
+                <div class="message__area">
+                    <h3>Today</h3>
+                </div>
+
+                <div class="chat-input">
+                    <input id="textarea" type="text" placeholder="Type a message..." >
+                    <button><i class='bx bxs-send'></i></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+
+</body>
+</html>

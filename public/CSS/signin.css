@@ -1,0 +1,146 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('../background_image.jpg');    
+    }
+    
+.container {
+    width: 75%;
+    height: 100%; 
+    top: 50%; 
+    left: 50%;
+    padding-left: 147px;
+    padding-top: 3%;
+}
+
+.subcontainer{
+    padding: 40px 5px;
+    align-items: center; 
+    text-align: center;
+    background-image: linear-gradient(to right,#26777d66,#000000b3);
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+
+}
+
+.logo img{
+    padding-left: 30px;
+    height: 300px;
+    width: auto;
+}
+
+.logo p{
+    color: rgba(90, 212, 239, 0.3); 
+    font-weight: bold;
+    font-size: xx-large;
+    /* padding-top: 5px; */
+}
+
+.content {
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px 30px ;
+    background-color: rgba(90, 212, 239, 0.3); 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(163, 60, 60, 0.1);
+}
+
+.login-form h2 {
+    color: #fff;
+}
+
+.login-form p{
+    color: #fff;
+}
+
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    display: flex;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position: relative;
+    right: 30px;
+    top: 83%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot{
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+
+.btn{
+    width: 100%;
+    height: 45%;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0 , 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    padding: 13px;
+}
+
+.logreg-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form p a {
+    color: rgba(8, 200, 243, 0.555); 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-form p a:hover{
+    text-decoration: underline;
+}
