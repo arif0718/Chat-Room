@@ -21,5 +21,7 @@ A real-time chat application built with Node.js, Express.js, MongoDB, and Socket
 
 pending...
 ## 📁 Folder Structure
+<img width="1254" height="659" alt="image" src="https://github.com/user-attachments/assets/3b446da3-1605-4964-a390-29ff01b29876" />
+
 
 pending.... (now take help from above file)
