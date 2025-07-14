@@ -1,6 +1,6 @@
 # 💬 Chat-Room
 
-A real-time chat application built with Node.js, Express.js, MongoDB, and Socket.io. Users can join a chatroom and exchange messages instantly with others in real-time.
+A real-time chat application built using Node.js, Express.js, MongoDB, and Socket.io, enabling users to join chatrooms and exchange messages instantly. The platform features a smooth login and signup flow, ensuring secure access and user management. Designed for real-time text communication, it offers a clean and responsive interface — ideal for learning and demonstrating core real-time web socket concepts.
 
 ## 🚀 Features
 
